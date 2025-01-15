@@ -48,6 +48,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript", ],
   },
   {
+    link: "https://github.com/SrRaven/react-portfolio",
     title: "Portfolio Website",
     image: project3,
     description:
