@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `Sou um desenvolvedor full-stack, apaixonado por criar aplicações web dinâmicas e eficientes. Com uma base sólida em JavaScript, React, Node.js e MySQL, estou ansioso para aplicar minhas habilidades em projetos reais. Busco oportunidades para contribuir com soluções que proporcionem crescimento aos negócios e experiências excepcionais aos usuários.`;
 
@@ -54,6 +55,14 @@ export const PROJECTS = [
     description:
       "Um site de portfólio pessoal apresentando projetos, habilidades e informações de contato.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  },
+  {
+    link: "https://sgtviagens.com.br/",
+    title: "Global Viagens",
+    image: project5,
+    description:
+      "Site de agência de viagens desenvolvido para a Global Viagens, oferecendo uma experiência moderna e intuitiva para os usuários.",
+    technologies: ["React", "Tailwind CSS"],
   },
 
 ];
