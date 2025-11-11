@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Sou um desenvolvedor full-stack, apaixonado por criar aplicações web dinâmicas e eficientes. Com uma base sólida em JavaScript, React, Node.js e MySQL, estou ansioso para aplicar minhas habilidades em projetos reais. Busco oportunidades para contribuir com soluções que proporcionem crescimento aos negócios e experiências excepcionais aos usuários.`;
 
-export const ABOUT_TEXT = `Sou um desenvolvedor full-stack dedicado e versátil, com paixão por criar aplicações web eficientes, intuitivas e seguras. Trabalho com tecnologias como React, Node.js, MySQL e JavaScript, sempre buscando aprender e enfrentar novos desafios. Minha jornada no desenvolvimento web começou com uma curiosidade profunda sobre como as coisas funcionam e evoluiu para um compromisso em entregar soluções. Valorizo o trabalho em equipe e a resolução de problemas complexos. Fora do universo da programação, gosto de explorar novas tecnologias, me manter ativo e expandir meus conhecimentos em projetos pessoais.`;
+export const ABOUT_TEXT = `Dedicado e versátil, com paixão por criar aplicações web eficientes, intuitivas e seguras. Trabalho com tecnologias como React, Node.js, MySQL e JavaScript, sempre buscando aprender e enfrentar novos desafios. Minha jornada no desenvolvimento web começou com uma curiosidade profunda sobre como as coisas funcionam e evoluiu para um compromisso em entregar soluções. Valorizo o trabalho em equipe e a resolução de problemas complexos. Fora do universo da programação, gosto de explorar novas tecnologias, me manter ativo e expandir meus conhecimentos em projetos pessoais.`;
 
 export const EXPERIENCES = [
   {
