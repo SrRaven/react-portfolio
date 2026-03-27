@@ -3,6 +3,8 @@ import { FaNodeJs } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { BiLogoJavascript } from "react-icons/bi";
 import { motion } from "motion/react";
+import { TRANSLATIONS } from "../constants";
+import { useLanguage } from "../LanguageContext";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -18,18 +20,25 @@ const iconVariants = (duration) => ({
 });
 
 const Tech = () => {
+  const { language } = useLanguage();
+  const content = TRANSLATIONS[language];
+
   return (
     <div className="border-b border-neutral-800 pb-24">
       <motion.h1
-      whileInView={{ opacity: 1, y: 0 }}
-      initial={{ opacity: 0, y: -100 }}
-      transition={{ duration: 1.5 }}
-      className="my-20 text-center text-4xl">Tecnologias</motion.h1>
-      <motion.div 
-      whileInView={{opacity: 1, x: 0}}
-      initial={{ opacity: 0, x: -100 }}
-      transition={{ duration: 0.5 }}
-      className="flex flex-wrap items-center justify-center gap-4">
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1.5 }}
+        className="my-20 text-center text-4xl"
+      >
+        {content.technologiesTitle}
+      </motion.h1>
+      <motion.div
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 0.5 }}
+        className="flex flex-wrap items-center justify-center gap-4"
+      >
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"

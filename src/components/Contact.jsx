@@ -1,9 +1,13 @@
-import { CONTACT } from "../constants";
+import { CONTACT, TRANSLATIONS } from "../constants";
+import { useLanguage } from "../LanguageContext";
 
 const Contact = () => {
+  const { language } = useLanguage();
+  const content = TRANSLATIONS[language];
+
   return (
     <div className="border-b border-neutral-900 pb-20">
-      <h1 className="my-10 text-center text-4xl">Entre em contato:</h1>
+      <h1 className="my-10 text-center text-4xl">{content.contactTitle}</h1>
       <div className="text-center tracking-tighter">
         <p className="my-4">{CONTACT.address}</p>
         <p className="my-4">{CONTACT.phoneNo}</p>
